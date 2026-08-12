@@ -1,7 +1,16 @@
 aid: enko-chem
 name: Enko Chem
-description: 'Enko Chem is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Enko Chem, Inc. (Enko) is an agricultural life sciences company founded
+  in 2017 and headquartered in Mystic, Connecticut, where it operates an 89,000 sq
+  ft research lab and greenhouse campus. Enko discovers and develops next-generation
+  crop protection chemistry — weed, disease, insect and soil-pest control — using its
+  proprietary ENKOMPASS platform, which combines DNA-encoded library screening, structure-based
+  design, artificial intelligence and machine learning to identify new modes of action
+  and lead molecules faster and at lower cost than conventional agrochemical R&D. Enko
+  works through partnerships with Syngenta, Bayer, Nufarm and the Gates Foundation
+  Strategic Investment Fund rather than selling software, and publishes no public API,
+  developer portal, SDK or machine-readable specification.'
+image: https://cdn.prod.website-files.com/62956a153328518931d92e9b/629ec5af86f484f75e7538b7_Enko%20Logo%20Dark.svg
 url: https://raw.githubusercontent.com/api-evangelist/enko-chem/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +21,16 @@ created: '2026-08-12'
 modified: '2026-08-12'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Crop Protection
+- Agrochemicals
+- Life Sciences
+- Chemistry
+- Artificial Intelligence
+- Machine Learning
+- Drug Discovery
+- Research and Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,55 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/enko-chem-domain-security.yml
+- type: LLMsTxt
+  url: llms/enko-chem-llms.txt
 - type: Website
+  url: https://www.enko.ag/
+- type: About
+  url: https://www.enko.ag/about-enko
+- type: Platform
+  url: https://www.enko.ag/our-platform
+- type: Blog
+  url: https://www.enko.ag/news
+- type: GitHubOrganization
+  url: https://github.com/enko-chem
+- type: PrivacyPolicy
+  url: https://www.enko.ag/privacy-policy
+- type: Legal
+  url: https://www.enko.ag/legal
+- type: Contact
+  url: https://www.enko.ag/contact
+- type: Careers
+  url: https://www.enko.ag/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/enko-ag
+- type: SecondaryMarket
   url: https://forgeglobal.com/enko-chem_stock/
+x-enrichment:
+  date: '2026-08-12'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Enko is a crop-protection chemistry R&D company whose ENKOMPASS platform is
+    internal discovery tooling, not a product — the Webflow marketing site 404s on
+    every spec, docs and .well-known path, no api/docs/developer subdomain resolves,
+    and the github.com/enko-chem org holds only seven forks of third-party
+    scientific tools with no first-party code.
+  evidence:
+  - url: https://www.enko.ag/openapi.json
+    status: 404
+  - url: https://www.enko.ag/.well-known/agent-card.json
+    status: 404
+  - url: https://www.enko.ag/developers
+    status: 404
+  - url: https://www.enko.ag/llms.txt
+    status: 404
+  - url: https://api.github.com/orgs/enko-chem/repos
+    status: 200
+  checked: '2026-08-12'

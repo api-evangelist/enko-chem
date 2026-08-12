@@ -1,0 +1,76 @@
+# Enko Chem
+
+> Enko Chem, Inc. ("Enko") is an agricultural life sciences company founded in 2017 and
+> headquartered in Mystic, Connecticut. It discovers and develops next-generation crop
+> protection chemistry using its ENKOMPASS platform, which combines DNA-encoded library
+> screening, structure-based design, artificial intelligence and machine learning.
+
+<!--
+generated: 2026-08-12
+method: generated
+source: apis.yml + API Evangelist enrichment pass (probed https://www.enko.ag/, 2026-08-12)
+note: Enko does not publish an llms.txt. https://www.enko.ag/llms.txt returned 404
+      (Webflow SPA 404 page). This file is authored by API Evangelist from the
+      company's public site and is NOT a provider-published document.
+-->
+
+## What Enko is
+
+Enko is a crop-health R&D company, not a software vendor. Its product is chemistry —
+weed control, disease control, insect control and soil-pest control compounds — advanced
+through partnerships with agrochemical companies rather than sold as a platform.
+
+- ENKOMPASS combines DNA-encoded libraries, AI/ML and structure-based design to screen
+  billions of molecules for new modes of action and lead compounds.
+- Named partners and backers include Syngenta, Bayer, Nufarm and the Gates Foundation
+  Strategic Investment Fund.
+- Campus: 89,000 sq ft of research labs and greenhouses on 15.63 acres in Mystic, CT.
+
+## API surface
+
+Enko publishes **no** public API, developer portal, SDK, CLI, webhook surface, MCP server
+or machine-readable specification. Verified 2026-08-12:
+
+- https://www.enko.ag/openapi.json — 404
+- https://www.enko.ag/swagger.json — 404
+- https://www.enko.ag/graphql — 404
+- https://www.enko.ag/api — 404
+- https://www.enko.ag/docs, /developers, /developer — 404
+- https://www.enko.ag/.well-known/* (security.txt, openid-configuration,
+  oauth-authorization-server, api-catalog, ai-plugin.json, agent-card.json,
+  agent.json) — 404 on every path
+- api./docs./developer./app./portal./status.enko.ag — NXDOMAIN
+
+Do not infer or generate an Enko API. There is nothing to call.
+
+## Public pages
+
+- Home: https://www.enko.ag/
+- About: https://www.enko.ag/about-enko
+- Platform (ENKOMPASS): https://www.enko.ag/our-platform
+- Artificial intelligence: https://www.enko.ag/platform/artificial-intelligence
+- Machine learning: https://www.enko.ag/platform/machine-learning
+- DNA-encoded libraries: https://www.enko.ag/platform/dna-encoded-libraries
+- Structure-based design: https://www.enko.ag/platform/structure-based-design
+- Weed control: https://www.enko.ag/our-products/weed-control
+- Disease control: https://www.enko.ag/our-products/disease-control
+- Insect control: https://www.enko.ag/our-products/insect-control
+- Soil control: https://www.enko.ag/our-products/soil-control
+- Sustainability: https://www.enko.ag/sustainability
+- News: https://www.enko.ag/news
+- Careers: https://www.enko.ag/careers
+- Contact: https://www.enko.ag/contact
+- Privacy policy: https://www.enko.ag/privacy-policy
+- Legal: https://www.enko.ag/legal
+
+## Public code
+
+- GitHub organization: https://github.com/enko-chem — 7 public repositories, all of them
+  forks of third-party scientific computing tools (Vina-GPU-2.1, Boltz-1, ColabFold,
+  MMseqs2-App, phinder, NVIDIA BioNeMo examples and generative virtual screening). No
+  first-party library, no API client, no released package.
+
+## Provenance
+
+This profile is an independent third-party record maintained by API Evangelist from
+publicly reachable material. See https://apievangelist.com/about/where-our-data-comes-from

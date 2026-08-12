@@ -1,0 +1,34 @@
+generated: '2026-08-12'
+method: probed
+source: https://www.enko.ag/.well-known/
+note: >-
+  Every RFC 8615 well-known path probed on the only host Enko operates
+  (www.enko.ag) returned 404. The origin is Webflow, which answers unrecognized
+  /.well-known/* requests with an 88-byte "Invalid .well-known request" HTML
+  stub rather than a document. Nothing was served, so NO WellKnown or
+  SecurityTxt pointer is wired into apis.yml — this file records a verified
+  absence, not a presence.
+host: www.enko.ag
+paths:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- path: /.well-known/agent-card.json
+  status: 404
+  file: null
+- path: /.well-known/agent.json
+  status: 404
+  file: null
+hits: 0
