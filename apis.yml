@@ -10,6 +10,17 @@ description: 'Enko Chem, Inc. (Enko) is an agricultural life sciences company fo
   works through partnerships with Syngenta, Bayer, Nufarm and the Gates Foundation
   Strategic Investment Fund rather than selling software, and publishes no public API,
   developer portal, SDK or machine-readable specification.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/62956a153328518931d92e9b/629ec5af86f484f75e7538b7_Enko%20Logo%20Dark.svg
 url: https://raw.githubusercontent.com/api-evangelist/enko-chem/refs/heads/main/apis.yml
 x-type: company
