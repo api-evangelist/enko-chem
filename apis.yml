@@ -51,7 +51,7 @@ tags:
 - Life Sciences
 - Chemistry
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Drug Discovery
 - Research and Development
 tags_raw:
@@ -66,6 +66,7 @@ tags_raw:
 - Machine Learning
 - Drug Discovery
 - Research and Development
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
